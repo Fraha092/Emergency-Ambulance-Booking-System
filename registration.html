@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+	nav
+	{
+	    float:right;
+	    word-spacing: 35px;
+	    padding: 20px;
+	}
+	nav li
+	{
+	    display:inline-block;
+	    line-height: 80px;
+	}
+</style>
+
+
+<style type="text/css">
+		section
+		{
+			margin-top: -20px;
+		}
+		header
+		{
+			background-color: #5a698b;
+		}
+		footer
+		{
+   			height: 100px;
+    		width:100%;
+    		background-color: #5a698b;
+		}
+	</style>
+
+</head>
+<body>
+
+<header style="height: 90px;">
+  
+<div class="logo">
+      <h1 style="color: white; font-size: 25px;word-spacing: 2px; line-height: 20px;margin-top: 20px;">EMERGENCY AMBULANCE<br> &nbsp &nbsp &nbsp BOOKING SYSTEM </h1>
+    </div>
+
+      <nav>
+        <ul>
+          <li><a href="main.php">HOME</a></li>
+          <li><a href="ambulance.php">AMBULANCE</a></li>
+          <li><a href="user_login.php">USER-LOGIN</a></li>
+          <li><a href="driver_login.php">DRIVER-LOGIN</a></li>
+          <li><a href="feedback.php">FEEDBACK</a></li>
+        </ul>
+      </nav>
+</header>
+
+<section>
+	<div class="reg_img">
+		<br>
+		<div class="box2">
+			<h1 style="text-align: center; font-size: 30px; font-family: sans-serif;color: white; ">EMERGENCY AMBULANCE BOOKING SYSTEM </h1>
+			<h1 style="text-align: center; font-size: 25px; color: white;"> User Registration Form</h1>
+			<form name="Registration" action="" method="post">
+				<br>
+				<div class="login">
+					
+				<input class="form-control" type="text" name="full" placeholder="Full Name" required=""><br>
+				<input class="form-control" type="text" name="username" placeholder="Username" required=""><br>
+				<input class="form-control" type="text" name="email" placeholder="Email" required=""><br>
+				<input class="form-control" type="password" name="Password" placeholder="Password" required=""><br>
+				<input class="form-control" type="text" name="contact" placeholder="Contact No." required=""><br>
+			
+				<input class="btn btn-default" type="submit" name="submit" value="Sign Up" style="color: #800000; width: 80px; height: 40px"></div>
+			</form>
+			
+		</div>
+		
+	</div>
+
+</section>
+<footer>
+      <p style="color:white;  text-align: center; ">
+        <br>
+        Email: emergency.ambulance@gmail.com <br><br>
+        Developed By: Team 4_PLUS_1 
+      </p>
+</footer>
+</body>
